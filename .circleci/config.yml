@@ -4,7 +4,7 @@ orbs:
   node: circleci/node@4.1
 
 workflows:
-  test:
+  wdio-test:
     jobs:
       - node/test:
           version: '15.1'
